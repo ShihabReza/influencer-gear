@@ -1,0 +1,12 @@
+h1{
+    font-size: 15px;
+    color: blue;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
