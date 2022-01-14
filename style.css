@@ -1,7 +1,4 @@
-h1{
-    font-size: 15px;
-    color: blue;
-}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -9,6 +6,7 @@ h1{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 .parant-heder{
     width: 1200px;
@@ -58,4 +56,88 @@ body{
 }
 .head-img:hover{
     transform: scale(1.1);
+}
+.pepole-box img{
+    width: 300px;
+    height: 256px;
+}
+.pepoles-box{
+    width:1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    margin-top: 20px;
+    
+}
+.ppl-one{
+    width: 262px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    color: #191a18;
+}
+.cdh{
+    font-size:28px;
+    font-weight: 500;
+    color: #18191F;
+}
+.ditals .cdt{
+    font-size: 24px;
+}
+.dtls-rating{
+    color: orange;
+}
+.detals-p{
+    color:#18191F;
+}
+.pepole-collation{
+    margin-top: 150px;
+}
+.pepole-box{
+    padding: 10px;
+    width: 300px;
+    height: 476px;
+    border-radius:5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.bonas-parant{
+    width:1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+}
+.bonas-text{
+    width: 610px;
+    height: 224px;
+}
+.bonas-img img{
+    width: 404px;
+    height: 270px;
+    margin-left: 5px;
+}
+.bonos{
+    margin-top:250px;
+}
+.bnshdr{
+    font-size: 38px;
+    color: #0A0826;
+
+}
+.bnsprp{
+    font-size: 16px;
+    color: #6C6C6C;
+    
+}
+.bonas-btn{
+    width: 196px;
+    height: 44px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: #FFF;
+    border-radius:10px;
 }
