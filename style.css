@@ -5,8 +5,57 @@ h1{
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
+}
+.parant-heder{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+.parant-heder{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.text-heder{
+    width: 582px;
+    height: 270px;
+   
+}
+.hta{
+    font-size:52px;
+    font-weight:bold;
+    color:#3A3A3A;
+    margin-top: 30px;
+}
+.hpa{
+    font-size:16px;
+    color: #3A3A3A;
+    margin-top: 20px;
+}
+.hbn {
+    width: 196px;
+    height: 44px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: #FFF;
+    border-radius:10px;
+    margin-top: 20px;
+    transition: background-color .5s;
+}
+.hbn:hover{
+    background-color:#191a18;
+    color:#ff5f49
+}
+.head-img{
+    width: 440px;
+    height: 414px;
+    margin-left: 50px;
+    transition:transform 1s ;
+}
+.head-img:hover{
+    transform: scale(1.1);
 }
